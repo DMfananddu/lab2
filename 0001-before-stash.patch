@@ -1,0 +1,25 @@
+From fe03c0b9ecd2358152479685890309bfd5bca830 Mon Sep 17 00:00:00 2001
+From: dmfananddu <af0706@yandex.ru>
+Date: Wed, 7 Oct 2020 14:30:35 +0300
+Subject: [PATCH] before stash
+
+---
+ main.c | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/main.c b/main.c
+index 8af7d0d..9e6022d 100644
+--- a/main.c
++++ b/main.c
+@@ -15,8 +15,5 @@ int main(int argc, char **argv)
+  printf("Now enter your last name: ");
+  gets(last); /* buffer overflow? what's that? */
+  printf("Hello %s %s!\n", first, last);
+- printf("Hello %s %s!\n", first, last);
+- printf("Hello %s %s!\n", first, last);
+- printf("Hello %s %s!\n", first, last);
+  return 0;
+ }
+-- 
+2.25.0.windows.1
+
